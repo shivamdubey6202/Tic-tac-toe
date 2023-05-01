@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Tic Tac Toe</h2>
+    <div class="container">
+        <input type="text" id="a1" onclick="func1(); myFunc()" readonly>
+        <input type="text" id="a2" onclick="func2(); myFunc()" readonly>
+        <input type="text" id="a3" onclick="func3(); myFunc()" readonly>
+        <input type="text" id="a4" onclick="func4(); myFunc()" readonly>
+        <input type="text" id="a5" onclick="func5(); myFunc()" readonly>
+        <input type="text" id="a6" onclick="func6(); myFunc()" readonly>
+        <input type="text" id="a7" onclick="func7(); myFunc()" readonly>
+        <input type="text" id="a8" onclick="func8(); myFunc()" readonly>
+        <input type="text" id="a9" onclick="func9(); myFunc()" readonly>
+    </div>
+    <p class="turn">Player Turn: <span id="turn">X</span></p>
+    <h4 id="result">Result:</h4>
+    <button type="reset" class="reset" onclick="reset()">Reset</button>
+    <script src="script.js"></script>
+</body>
+</html>
